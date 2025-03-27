@@ -1,22 +1,22 @@
-# Apache Airflow One Shot - ETL Pipeline Using Airflow & Astro  
+ Apache Airflow One Shot - ETL Pipeline Using Airflow & Astro  
 
 ## 📌 Project Overview  
-This project builds an **end-to-end ETL (Extract, Transform, Load) pipeline** using **Apache Airflow** and **Astro**. It extracts weather data from an API, transforms it, and loads it into **PostgreSQL** using Docker and Airflow.
+This project builds an end-to-end ETL (Extract, Transform, Load) pipeline using **Apache Airflow** and **Astro**. It extracts weather data from an API, transforms it, and loads it into PostgreSQL using Docker and Airflow.
 
-## 🚀 Features  
+##  Features  
 - Extracts weather data from **Open-Meteo API**.  
 - Transforms data (temperature, wind speed, direction, etc.).  
 - Loads processed data into **PostgreSQL**.  
 - Uses **Docker & Astro** for containerized execution.  
 
-## 🛠️ Technologies Used  
+##  Technologies Used  
 - **Apache Airflow**  
 - **Astro CLI**  
 - **Docker**  
 - **PostgreSQL**  
 - **Python**
 - 
-🏗️ How It Works  
+How It Works  
 1. **Setup Astro & Docker**  
    - Install Astro CLI (`winget install -e --id Astronomer.Astro`).  
    - Initialize the project (`astro dev init`).  
@@ -33,6 +33,6 @@ This project builds an **end-to-end ETL (Extract, Transform, Load) pipeline** us
    - Connect **PostgreSQL** (via `docker-compose.yml`).  
    - Verify stored data in the database.  
 
-## 📈 Results  
+##  Results  
 - Successfully automated data extraction, transformation, and storage.  
 - Scalable ETL pipeline with **Airflow DAGs**.
